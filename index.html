@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <div class="tabuleiro">
+        <h1>Jogo da velha - Felipe Tsuchiya</h1>
+        <button id="start">Reiniciar</button>
+        <div class="linha">
+            <button onclick="jogada(this.value)"value="1" ><span id="casa1"></span></button>
+            <button onclick="jogada(this.value)" value="2" ><span id="casa2"></span></button>
+            <button onclick="jogada(this.value)" value="3" ><span id="casa3"></span></button>
+        </div>
+        <div class="linha">
+            <button onclick="jogada(this.value)" value="4" ><span id="casa4"></span></button>
+            <button onclick="jogada(this.value)" value="5" ><span id="casa5"></span></button>
+            <button onclick="jogada(this.value)" value="6" ><span id="casa6"></span></button>
+        </div>
+        <div class="linha">
+            <button onclick="jogada(this.value)" value="7" ><span id="casa7"></span></button>
+            <button onclick="jogada(this.value)" value="8" ><span id="casa8"></span></button>
+            <button onclick="jogada(this.value)" value="9" ><span id="casa9"></span></button>
+        </div>
+    </div>
+    <div class="hud">
+        Jogador da Vez: <span id="jdv"></span>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
