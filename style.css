@@ -2,25 +2,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
-}
-
-.hud {
-    font-size: xx-large;
-    font-weight: bold;
-    margin-top: 2rem;
-}
-
-h1 {
-    text-align: center;
+    margin: 2rem 0;
+    font-family: sans-serif;
 }
 
 button {
-    padding: 5rem;
     background-color: #fff;
+    width: 10rem;
+    height: 10rem;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: bold;
+
 }
 
 #start {
-    padding: 1.2rem;
-    margin: 0 auto;
+    width: 10rem ;
+    margin: 2rem 0;
 }
